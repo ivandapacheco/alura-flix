@@ -1,0 +1,88 @@
+:root {
+  --font: "Montserrat", sans-serif;
+  --bg-color: #181733;
+  --color-azul: #004b95;
+  --color-grana:#a4234b; 
+  --color-amarillo:#fdc52c;
+  --color-navBar:#0a0927;
+
+
+  line-height: 1.5;
+  font-weight: 700;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  /* margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+  font-family: var(--font);
+  
+}
+
+/* Aplica una animación de desvanecimiento */
+.page-transition {
+  animation: fadeIn 0.9s ease-in-out;
+}
+.btn-send {
+  background: var(--color-azul);
+  background: linear-gradient(90deg, rgba(0,75,149,1) 0%, rgba(164,35,75,1) 100%);
+  color: whitesmoke;
+  font-weight: bold;
+  transition: all .7s ease; /* Añadido para una transición suave */
+}
+
+.btn-send:hover {
+  background: var(--color-grana);
+  background: linear-gradient(90deg, rgba(164,35,75,1) 0%, rgba(0,75,149,1) 100%);
+  color: whitesmoke;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.6); /* Sombra agregada */
+  
+}
+.btn-return{
+  background-color: inherit;
+  color: var(--color-grana);
+  border: thin solid var(--color-grana);
+  transition: background-color .9s ease, color .9s ease; /* Agrega una transición suave */
+}
+.btn-return:hover{
+  background-color: var(--color-grana);
+  color: whitesmoke;
+}
+
+/* Definir el efecto de desvanecimiento */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

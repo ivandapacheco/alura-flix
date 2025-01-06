@@ -1,0 +1,19 @@
+.bg-footer{
+    background-color: var(--color-navBar);
+    color: var(--color-amarillo);
+}
+.github, 
+.linkedin{
+    color: white;
+    transition: color 0.3s;
+}
+.linkedin:hover {
+    color: #0077B5;
+}
+.github:hover {
+    color: #FF9800;
+}
+
+.orbitron{
+    font-family: 'Orbitron', sans-serif;
+}

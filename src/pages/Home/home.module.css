@@ -1,0 +1,17 @@
+.bg-grana{
+    background-color: var(--color-grana);
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px var(--color-azul); 
+    border-top: 5px solid var(--color-amarillo);
+    
+}
+.btn-add{
+    background: var(--color-azul);
+    background: linear-gradient(90deg, rgba(0,75,149,1) 0%, rgba(164,35,75,1) 100%);
+    color: whitesmoke;
+}
+.btn-add:hover{
+    background: var(--color-grana);
+    background: linear-gradient(90deg, rgba(164,35,75,1) 0%, rgba(0,75,149,1) 100%);
+    color: whitesmoke;
+}

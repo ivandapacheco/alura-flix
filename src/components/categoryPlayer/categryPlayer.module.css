@@ -1,0 +1,15 @@
+.orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+.position-title {
+    display: inline-block; /* El fondo se ajustará al tamaño del texto */
+    background-color: #ff0000; /* Fondo rojo */
+    color: white; /* Color del texto */
+    padding: 4px 8px; /* Espaciado alrededor del texto */
+    border-radius: 4px; /* Opcional: Bordes redondeados */
+    text-align: center;
+    text-decoration: underline; /* Subrayado del texto */
+    text-decoration-thickness: 2px; /* Grosor del subrayado */
+    text-decoration-color: white; /* Color del subrayado */
+  }
+  

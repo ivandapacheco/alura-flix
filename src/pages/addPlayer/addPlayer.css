@@ -1,0 +1,15 @@
+.bg-grana{
+    background-color: var(--color-grana);
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px var(--color-azul); 
+    border-top: 5px solid var(--color-amarillo);
+    
+}
+
+
+
+.border{
+    border-color: var(--color-grana) !important;
+}
+
+
