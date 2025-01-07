@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './CardPlayer.module.css';
+import styles from './cardPlayer.module.css';
 
 const CardPlayer = ({ id, name, lastName, position, value, img, editPlayer, deletePlayer  }) => {
   return (
