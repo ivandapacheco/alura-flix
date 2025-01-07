@@ -300,8 +300,8 @@ const AddPlayer = () => {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-4">
-              <button type="submit" className="btn btn-s btn-send">
+            <div className="d-flex justify-content-center mt-2 mb-3 mb-lg-0">
+              <button type="submit" className="btn btn-sm btn-send">
                 <i className="fas fa-user-plus"></i> Añadir Jugador
               </button>
             </div>
