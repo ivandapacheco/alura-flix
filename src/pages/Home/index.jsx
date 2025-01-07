@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import ModalEditPlayer from "../../components/modalEditPlayer"; // El nuevo componente del modal
+import ModalEditPlayer from "../../components/modalEditPlayer/index.jsx"; // El nuevo componente del modal
 import { useNavigate } from "react-router-dom";
 import PlayerCategory from "../../components/categoryPlayer";
 import styles from "./home.module.css";
