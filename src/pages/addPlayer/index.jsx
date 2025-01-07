@@ -84,7 +84,7 @@ const AddPlayer = () => {
         icon: 'success',
         html: `
           <h3 class="container text-center fw-bold">¡Bienvenido a la familia culé!</h3>
-          <img class="mt-3" src="public/assets/logo.png" alt="Logo Barcelona" style="height: 70px;">
+          <img class="mt-3" src="assets/logo.png" alt="Logo Barcelona" style="height: 70px;">
           <span class="d-block fst-italic mt-3">${form.nombre} ${form.apellido}</span>
           <p><span class="fw-bold fs-7 mt-3 mb-0">¡El F.C Barcelona está orgulloso de tenerte!</span></p>
         `,
