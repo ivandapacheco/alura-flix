@@ -42,9 +42,9 @@ const Home = () => {
       const result = await Swal.fire({
         title: "¿Estás seguro?",
         html: `
-          <img class="mt-3" src="public/assets/logo.png" alt="Logo Barcelona" style="height: 70px;">
+          <img class="mt-3" src="assets/logo.png" alt="Logo Barcelona" style="height: 70px;">
           <p class="mt-2"><span class="fs-7 mt-3 mb-0">
-            ¿Deseas que "<b>${playerToDelete.nombre} ${playerToDelete.apellido}</b>" no se más un culé?
+            ¿Deseas que "<b>${playerToDelete.nombre} ${playerToDelete.apellido}</b>" no sea más un culé?
           </p>
           <p class="mt-2" style="font-size:12px">
             <span class="mb-0 text-danger"> * </span>
@@ -79,7 +79,7 @@ const Home = () => {
           icon: "success",
           title: "¡Jugador eliminado!",
           html: `
-            <img class="" src="public/assets/logo-sad.png" alt="Logo Barcelona" style="height: 100px;">
+            <img class="" src="assets/logo-sad.png" alt="Logo Barcelona" style="height: 100px;">
             <p class=""><span class="fs-7 mt-3 mb-0">
               "<b>${playerToDelete.nombre} ${playerToDelete.apellido}</b>" no es más un culé.
             </p>
@@ -138,7 +138,7 @@ const Home = () => {
         icon: "success",
         title: "¡Jugador actualizado!",
         html: `
-          <img class="mt-3" src="public/assets/logo.png" alt="Logo Barcelona" style="height: 70px;">
+          <img class="mt-3" src="assets/logo.png" alt="Logo Barcelona" style="height: 70px;">
           <p class="mt-2"><span class="fs-7 mt-3 mb-0">
             "${updatedPlayer.nombre} ${updatedPlayer.apellido}" ha sido actualizado con éxito.</span>
           </p>

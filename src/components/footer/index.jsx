@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="col-lg-2 col-md-2 d-flex justify-content-center align-items-center  mb-3 mb-lg-0 ">
                     <img 
                         className="img-fluid" 
-                        src="public/assets/logo.png" 
+                        src="assets/logo.png" 
                         alt="Logo" 
                         style={{ maxHeight: '90px' }} 
                     />
